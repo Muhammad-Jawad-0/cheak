@@ -3,20 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title> Apna College </title>
 </head>
 <body>
-    <div id="container" class="container">
-        <h1>heading</h1>
-        <input type="text" name="" id="">
-        <button>todos</button>
+<!--     
+    <table>
+        <tr id="color-red"  class="yellow">
+            <td>one</td>
+            <td>two</td>
+        </tr>
 
-        <ul>
-            <li></li>
-        </ul>
+        <tr class="yellow">
+            <td>three</td>
+            <td>four</td>
+        </tr>
+
+        <tbody>
+            <tr class="yellow">
+                <td>jawad</td>
+                <td>umair</td>
+                <td>Hammad</td>
+            </tr>
+
+            <tr class="yellow">
+                <td>asad</td>
+                <td>furrukh</td>
+                <td>shamir</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 id="mar" dta="lol">
+        jawad
+    </h1>
+
+    <h2 id="element" data="name1">
+        asad
+    </h2> -->
+
+
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+
+
+<main>
+    <div class="container mt-5 col-6">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Chapter" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button id = "add-btn" class="btn btn-outline-success" type="button" id="button-addon2">Add</button>
+      </div>
+
+    <ul class="list-group" id="parentList">
+        <li class="list-group-item d-flex justify-content-between">
+          <h3 class="flex-grow-1">Chapter 1</h3>
+          <button class="btn btn-warning mx-3" onclick="editElement(this)">Edit</button>
+          <button class="btn btn-danger" onclick="removeElement(this)">Remove</button>
+        </li>
+    </ul>
     </div>
 
-    <script src="app.js"></script>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
